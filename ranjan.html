@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Document</title>
+</head>
+<style>
+    .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 2.3fr 0.3fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    "Header Header Header Header"
+    "SIdebar Mainpage Mainpage Mainpage"
+    "Footer Footer Footer Footer";
+}
+.Header {
+    grid-area: Header;
+    background-color: rebeccapurple;
+    }
+.Footer { 
+    grid-area: Footer;
+    background-color: rgb(76, 211, 76) ;
+}
+.SIdebar { 
+    grid-area: SIdebar;
+    background-color: rgb(170, 118, 49);
+    }
+.Mainpage { 
+    grid-area: Mainpage;
+    background-color: rgb(107, 103, 112);
+    }
+</style>
+<body>
+    <div class="grid-container">
+        <div class="Header">
+            <!-- <h1 class="animate__animated animate__heartBeat" style="text-align:center;">
+                Ranjan Thakur
+            </h1> -->
+            <div class="animate__animated animate__bounce animate__delay-2s">
+                <h6 style="text-align:center;">Ranjan Thakur</h6>
+            </div>
+
+            
+
+
+        </div>
+        <div class="Footer">
+            <h2>rajan</h2>
+        </div>
+        <div class="SIdebar">
+            <h3>ranjan</h3>
+        </div>
+        <div class="Mainpage">
+            <h5>arush</h5>
+            
+        </div>
+    </div>
+</body>
+</html>
